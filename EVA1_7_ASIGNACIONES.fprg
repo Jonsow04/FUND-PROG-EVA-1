@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-11 08:23:21 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMzE3OzIwMjMtMDktMTE7MDg6MTE6MTEgcC4gbS47MjgzMg=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMzE3OzIwMjMtMDktMTE7MDg6MjM6MjEgcC4gbS47MTsyOTQ0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="var1" type="Integer" array="False" size=""/>
+            <declare name="var2" type="Integer" array="False" size=""/>
+            <declare name="suma" type="Integer" array="False" size=""/>
+            <assign variable="var1" expression="100"/>
+            <assign variable="var2" expression="44"/>
+            <assign variable="suma" expression="var1 + var2"/>
+            <output expression="var1 &amp; &quot; y &quot; &amp; var2" newline="True"/>
+            <output expression="&quot;La suma es: &quot; &amp; suma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
